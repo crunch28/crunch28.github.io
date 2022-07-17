@@ -2,7 +2,7 @@
 layout: post
 title: Chapter 2장 변수
 date: 2022-07-17 19:20:23 +0900
-category: 자바
+category: Java
 ---
 ## 1. 변수(variable)와 상수
 ### 1.1 변수란?
