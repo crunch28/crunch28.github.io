@@ -11,9 +11,9 @@ category: Javascript-Deep-Dive
 `변수` : 프로그래밍 언어에서 데이터를 관리하기 위한 핵심 개념
 
 관리는 어디서 하나 ? 메모리를 사용해 데이터를 저장함
-<br>
+<br><br>
 **메모리**는 데이터를 저장할 수 있는 메모리 셀의 집합체임
-
+<br><br><br>
 1바이트(8비트) 단위로 데이터를 저장하거나 읽어들임.
 <br>
 ![img-ch4-1.png](/public/img/posts/javascript-deep-dive/img-ch4-1.png)
@@ -144,6 +144,7 @@ score = 45;
 <br>
 자바스크립트는 대소문자를 구별함
 <br>
+
 ```jsx
 // 카멜 케이스
 var firstName;
