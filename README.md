@@ -4,30 +4,13 @@ title: About
 permalink: /about/
 ---
 
-## Theme Monos
-> Simple and lightweight theme for Jekyll
-
-### Features
-- Responsive.
-- Syntax Highlight
-- Most optimized theme for tech blog.
-- Lightweight with minimum stylesheet.
-- Easy to customize.
-- Offers category menu.
-
-### _config.yml
-> Code block will look like this.
-```yml
-highlighter-theme: monokai //you can change your syntax color scheme.
-date_format: "%Y-%M-%D" //and date format.
-```
-
-### Screenshots
-#### Page
-![alt text](/public/img/screenshot-1.png)
-#### Articles
-![alt text](/public/img/screenshot-2.png)
-#### Page - Mobile
-![alt text](/public/img/screenshot-m1.png)
-#### Page - Articles
-![alt text](/public/img/screenshot-m2.png)
+## 안녕하세요.
+> 단팥빵을 좋아하는 개발자 핑구칭구입니당~
+<br><br>
+### 핑구칭구의 위대한 업적
+- 2020 1~4월 베트남(SEVT1) 삼성 BIoT 구축사업
+- 2020 6~12월 경찰청 112 신고 시스템 고도화
+- 2021 1~4월 베트남(SEVT2, SEV) 삼성 BIoT 구축사업
+- 2021 5~7월 한국관광공사 여행산업 정보지원 구축
+- 2021 8~12월 CJP(CJO) 웹 페이지 구축
+- 2021 2~ 교육부 나이스 차세대 진행중
