@@ -16,7 +16,7 @@ category: Javascript-Deep-Dive
 
 1바이트(8비트) 단위로 데이터를 저장하거나 읽어들임.
 
-![Untitled.png](/public/img/posts/javascript-deep-dive/Untitled.png)
+![img-ch4-1.png](/public/img/posts/javascript-deep-dive/img-ch4-1.png)
 
 각 셀은 고유의 메모리 주소를 갖음.
 
