@@ -13,9 +13,9 @@ category: Javascript-Deep-Dive
 관리는 어디서 하나 ? 메모리를 사용해 데이터를 저장함
 <br><br>
 **메모리**는 데이터를 저장할 수 있는 메모리 셀의 집합체임
-<br><br>
+
 1바이트(8비트) 단위로 데이터를 저장하거나 읽어들임.
-<br><br>
+
 ![img-ch4-1.png](/public/img/posts/javascript-deep-dive/img-ch4-1.png)
 
 각 셀은 고유의 메모리 주소를 갖음.
@@ -25,7 +25,6 @@ category: Javascript-Deep-Dive
 메모리에 저장되는 데이터는 데이터의 종류(숫자, 텍스트, 이미지, 동영상)와 상관없이 모두 2진수로 저장됨.
 <br><br>
 **변수는 하나의 값을 저장하기 위해 확보한 메모리 공간 자체 또는 그 메모리 공간을 식별하기 위해 붙인 이름을 말함. 즉, 값의 위치를 가리키는 상징적인 이름**
-<br><br>
 
 ```javascript
 // 원시값 하나를 저장
@@ -62,14 +61,14 @@ var users = [
 변수를 사용하려면 반드시 선언이 필요함. `var, let, const` 키워드를 사용함.
 <br><br>
 `var` 키워드는 뒤에 오는 변수 이름으로 새로운 변수를 선언할 것을 지시하는 키워드
-<br><br>
+
 ```jsx
 var score; // 변수 선언
 z = 1;
 console.log(score); // undefined
 console.log(z); // 1
 ```
-<br><br>
+
 변수 선언 수행
 
 선언 단계 : 변수 이름을 등록해서 자바스크립트 엔진에 변수의 존재를 알림
@@ -132,7 +131,7 @@ console.log(score); // 4
 var score = 2;
 score = 45;
 ```
-<br><br>
+
 `상수` : 한번 정해지면 변하지 않는 값
 
 ### 4.7 식별자 네이밍 규칙
@@ -145,7 +144,6 @@ score = 45;
 
 <br><br>
 자바스크립트는 대소문자를 구별함
-<br><br>
 
 ```jsx
 // 카멜 케이스
