@@ -79,10 +79,10 @@ code {
 }
 
 p>code, a>code, li>code, figcaption>code, td>code{
-	padding: 0.2rem;
+	padding: 0.3rem;
     font-size: 0.9em;
     background: #222222ba;
-    color: #ffffff;
+    color: #dc3545;
     border-radius: 3px;
 }
 
