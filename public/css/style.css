@@ -351,31 +351,14 @@ footer {
    ========================================================================== */
 
 table {
-  display: block;
-  margin-bottom: 1em;
-  width: 100%;
   border-collapse: collapse;
-  overflow-x: auto;
+  width: 100%;
 }
 
-thead {
-  background-color: #e7f3f8;
-  border: 2px solid;
-}
-
-th {
-  padding: 0.5em;
-  font-weight: bold;
+th, td {
+  padding: 8px;
   text-align: left;
+  border-bottom: 1px solid #ddd;
 }
 
-td {
-  padding: 0.5em;
-  border-bottom: 1px solid;
-}
-
-tr,
-td,
-th {
-  vertical-align: middle;
-}
+tr:hover {background-color: coral;}
