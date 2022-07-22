@@ -30,7 +30,7 @@ category: Javascript-Deep-Dive
 
 변수 선언과 재할당
 
-![img-ch11-1.png](/public/img/posts/java/img-ch11-1.png)
+![img-ch11-1.png](/public/img/posts/javascript-deep-dive/img-ch11-1.png)
 
 변수에 재할당이 일어나면 변수가 참조하는 메모리의 주소가 바뀔 뿐이다
 
@@ -71,11 +71,11 @@ console.log(copy); // ???
 
 할당 받는 변수(copy)에는 할당되는 변수(score)의 원시 값이 복사되어 전달된다.(값에 의한 전달)
 
-![img-ch11-2.png](/public/img/posts/java/img-ch11-2.png)
+![img-ch11-2.png](/public/img/posts/javascript-deep-dive/img-ch11-2.png)
 
                                                                       값에 의한 전달
 
-![img-ch11-3.png](/public/img/posts/java/img-ch11-3.png)
+![img-ch11-3.png](/public/img/posts/javascript-deep-dive/img-ch11-3.png)
 
                                       값에 의해 전달된 값은 다른 메모리 공간에 저장된 별개의 값
 
@@ -106,7 +106,7 @@ var person = {
 
 객체를 할당한 변수에는 생성된 객체가 실제로 저장된 메모리 공간의 주소가 저장되어 있음(참조 값)
 
-![img-ch11-4.png](/public/img/posts/java/img-ch11-4.png)
+![img-ch11-4.png](/public/img/posts/javascript-deep-dive/img-ch11-4.png)
 
 **person 변수는 객체 {name : ‘Kim’}을 참조하고 있다**
 
@@ -126,7 +126,7 @@ person.address = 'Seoul';
 
 메모리에 저장된 객체를 직접 수정함
 
-![img-ch11-5.png](/public/img/posts/java/img-ch11-5.png)
+![img-ch11-5.png](/public/img/posts/javascript-deep-dive/img-ch11-5.png)
 
 객체는 원시 값과 다르게 여러 개의 식별자로 하나의 객체를 공유 할 수 있음
 
@@ -149,7 +149,7 @@ var copy = person;
 
 원본의 참조 값이 복사되어 전달
 
-![img-ch11-6.png](/public/img/posts/java/img-ch11-6.png)
+![img-ch11-6.png](/public/img/posts/javascript-deep-dive/img-ch11-6.png)
 
 메모리는 달라도 참조 값은 같음
 

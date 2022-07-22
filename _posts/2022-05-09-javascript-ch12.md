@@ -10,7 +10,7 @@ category: Javascript-Deep-Dive
 
 `함수`는 자바스크립트에서 가장 중요한 핵심 개념으로 일련의 과정을 문으로 구현하고 코드 블록으로 감싸서 하나의 실행 단위로 정의한 것임
 
-![img-ch12-1.png](/public/img/posts/java/img-ch12-1.png)
+![img-ch12-1.png](/public/img/posts/javascript-deep-dive/img-ch12-1.png)
 
 - 매개변수 :  함수 내부로 입력을 전달받는 변수
 - 인수 : 입력하는 값
@@ -47,7 +47,7 @@ console.log(result); //30
 
 함수는 객체지만 일반 객체와는 다르게 호출이 가능함
 
-![img-ch12-2.png](/public/img/posts/java/img-ch12-2.png)
+![img-ch12-2.png](/public/img/posts/javascript-deep-dive/img-ch12-2.png)
 
 **12.4 함수 정의**
 
@@ -55,7 +55,7 @@ console.log(result); //30
 
 정의된 함수는 자바스크립트 엔진에 의해 평가되어 식별자가 암묵적으로 생성되고 함수 객체가 할당됨
 
-![img-ch12-3.png](/public/img/posts/java/img-ch12-3.png)
+![img-ch12-3.png](/public/img/posts/javascript-deep-dive/img-ch12-3.png)
 
 **12.4.1 함수 선언문**
 
@@ -94,7 +94,7 @@ bar(); // ReferenceError: Bar is not defind
 
 자바스크립트 엔진은 생성된 함수를 호출하기 위해 함수 이름과 동일한 이름의 식별자를 암묵적으로 생성하고, 거기에 함수 객체를 할당함
 
-![img-ch12-4.png](/public/img/posts/java/img-ch12-4.png)
+![img-ch12-4.png](/public/img/posts/javascript-deep-dive/img-ch12-4.png)
 
 함수는 함수 이름으로 호출하는 것이 아닌 함수 객체를 가리키는 식별자로 호출이 됨
 
@@ -186,7 +186,7 @@ var result = add(1, 2); 1, 2 는 인수
 
 매개변수는 함수를 정의할 때 선언 > 함수 내부에서 매개변수가 생성 > undefined로 초기화 > 인수가 매개변수로 할당
 
-![img-ch12-5.png](/public/img/posts/java/img-ch12-5.png)
+![img-ch12-5.png](/public/img/posts/javascript-deep-dive/img-ch12-5.png)
 
 - 매개변수는 함수 외부에서 참조를 못함
 - 매개변수의 개수와 인수의 개수는 달라도 오류가 아님
@@ -372,7 +372,7 @@ var factorial = function test(n){
 factorial(5); // 5 * 4* 3 * 2 * 1
 ```
 
-![img-ch12-6.png](/public/img/posts/java/img-ch12-6.png)
+![img-ch12-6.png](/public/img/posts/javascript-deep-dive/img-ch12-6.png)
 
 재귀 함수는 탈출 조건을 반드시 만들어야 함
 

@@ -12,13 +12,13 @@ category: Javascript-Deep-Dive
 
 객체는 0개 이상의 프로퍼티로 구성된 집합이며, 프로퍼티는 키와 값으로 구성됨
 
-![img-ch10-1.png](/public/img/posts/java/img-ch10-1.png)
+![img-ch10-1.png](/public/img/posts/javascript-deep-dive/img-ch10-1.png)
 
 자바스크립트에서 사용할 수 있는 모든 값은 프로퍼티로 사용될 수 있음
 
 함수도 프로퍼티 값으로 사용할 수 있는데, 이를 메서드라고 함
 
-![img-ch10-2.png](/public/img/posts/java/img-ch10-1.png)
+![img-ch10-2.png](/public/img/posts/javascript-deep-dive/img-ch10-1.png)
 
 `프로퍼티` : 객체의 상태를 나타내는 값(data)
 

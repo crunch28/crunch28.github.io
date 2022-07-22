@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Chapter 14장 전역변수의 문제점
-date: 2022-05-14 20:41:00 +0900
+date: 2022-05-11 20:41:00 +0900
 category: Javascript-Deep-Dive
 ---
 # 14 전역변수의 문제점
