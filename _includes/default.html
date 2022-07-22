@@ -35,7 +35,7 @@
 	   <!-- Top 버튼 -->
 	  <a class='back-to-top' href='#'>
 		  <i class="icon-arrow-up"></i>
-		  <span id="sTop">↑20%</span>
+		  <span id="sTop"></span>
 	  </a>
 	  <!-- //Top 버튼 -->
   </body>
@@ -67,8 +67,7 @@ burger.each(function(index){
 		let scrollLocation = document.documentElement.scrollTop; // 현재 스크롤바 위치
 		let windowHeight = window.innerHeight; // 스크린 창
 		let fullHeight = document.body.scrollHeight; //  margin 값은 포함 x
-		let persentVal = '↑ ' + Math.round((scrollLocation + windowHeight) / fullHeight * 100);
-		console.log( Math.round((scrollLocation + windowHeight) / fullHeight * 100));
+		let persentVal = '↑ ' + Math.round((scrollLocation + windowHeight) / fullHeight * 100) + '%';
 
 		$("#sTop").text(persentVal);
 	})
