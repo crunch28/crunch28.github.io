@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Chapter 4장 변수
-date: 2022-07-18 21:40:00 +0900
+date: 2022-05-01 21:40:00 +0900
 category: Javascript-Deep-Dive
 ---
 # 4장 변수
