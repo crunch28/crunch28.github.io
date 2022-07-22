@@ -2,7 +2,7 @@
 <html lang="{{ page.lang | default: site.lang | default: "en" }}">
   {%- include head.html -%}
   <style>@import url(/public/css/syntax/{{ site.highlighter-theme }}.css);</style>
-  <script src=""></script>
+  <script src="/js/jquery-3.4.1.min.js"></script>
   <title>{{ site.title }}</title>
   <!-- <link href="/public/css/bootstrap.min.css" rel="stylesheet"> -->
 
@@ -36,14 +36,14 @@ function menu_close() {
 }
 	
 var burger = document.querySelector('.menu-trigger');
-console.log(burger);
-// burger.each(function(index){
-//   var $this = $(this);
+
+burger.each(function(index){
+  var $this = $(this);
   
-//   $this.on('click', function(e){
-//     e.preventDefault();
-//     $(this).toggleClass('active-' + (index+1));
-//   })
-// });
+  $this.on('click', function(e){
+    e.preventDefault();
+    $(this).toggleClass('active-' + (index+1));
+  })
+});
 </script>
 </html>
