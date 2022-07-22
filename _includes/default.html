@@ -25,9 +25,7 @@
   </body>
 <script>
 // Open and close sidebar
-function menu_openClose() {
-  	var flagSidebar = $('.sidebar');
-	
+function menu_openClose() {	
 	if($('.sidebar').css("display") == "block"){
 		$('.sidebar').hide();
 		$('.container').css("background", ""); 
@@ -35,8 +33,12 @@ function menu_openClose() {
 		$('.sidebar').show();
 		$('.container').css("background", "#0005"); 
 	}
-  // document.getElementById("myOverlay").style.display = "block";
 }
+	
+$('.nav-item').click(function(){
+	$('.sidebar').hide();
+	$('.container').css("background", ""); 
+});
 	
 var burger = $('.menu-trigger');
 
