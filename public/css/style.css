@@ -100,7 +100,6 @@ p>code, a>code, li>code, figcaption>code, td>code{
 }
 
 .sidebar {
-	/*position: fixed;*/
 	display: flex;
 	flex-flow: column nowrap;
 	flex: 0 0 220px;
@@ -301,6 +300,10 @@ footer {
 	color: #ccc;
 }
 
+.fa {
+    display: none;
+}
+
 @media (max-width: 576px) {
 	article {
 		font-size: 0.9em;
@@ -316,6 +319,8 @@ footer {
 
 	.sidebar {
 		font-size: 0.8em;
+		position: fixed;
+		display: none;
 	}
 
 	.sidebar-nav {
@@ -334,6 +339,14 @@ footer {
 		flex: 0 0 0px;
 		visibility: hidden;
 		display: none;
+	}
+	
+	.fa {
+		display: inline-block;
+		font: normal normal normal 14px/1 FontAwesome;
+		font-size: inherit;
+		text-rendering: auto;
+		-webkit-font-smoothing: antialiased;
 	}
 }
 
