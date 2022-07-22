@@ -26,16 +26,16 @@
 <script>
 // Open and close sidebar
 function menu_openClose() {
-  var flagSidebar = document.querySelector(".sidebar").style.display;
-	console.log(flagSidebar);
-	if(flagSidebar == "block"){
-		flagSidebar = "none";
+  	var flagSidebar = $('.sidebar');
+	
+	if($('.sidebar').css("display") == "block"){
+		$('.sidebar').hide();
 	}else{
-		flagSidebar = "block";
+		$('.sidebar').show();
 	}
   // document.getElementById("myOverlay").style.display = "block";
 }
- 
+
 function menu_close() {
   document.querySelector(".sidebar").style.display = "none";
   // document.getElementById("myOverlay").style.display = "none";
