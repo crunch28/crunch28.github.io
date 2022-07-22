@@ -108,6 +108,7 @@ p>code, a>code, li>code, figcaption>code, td>code{
 	z-index: 1;
 	background-color: #222;
 	color: #fff;
+	position: fixed!important;
 }
 
 .sidebar-item {
@@ -301,6 +302,45 @@ footer {
 	color: #ccc;
 }
 
+.fa {
+	display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.w3-hide-large {
+    display: none!important;
+}
+
+.w3-btn, .w3-button {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.w3-btn, .w3-button {
+    border: none;
+    display: inline-block;
+    padding: 8px 16px;
+    vertical-align: middle;
+    overflow: hidden;
+    text-decoration: none;
+    color: inherit;
+    background-color: inherit;
+    text-align: center;
+    cursor: pointer;
+    white-space: nowrap;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
 
 @media (max-width: 576px) {
 	article {
@@ -317,9 +357,6 @@ footer {
 
 	.sidebar {
 		font-size: 0.8em;
-		flex: 0 0 auto;
-		flex-flow: row nowrap;
-		height: auto;
 	}
 
 	.sidebar-nav {
