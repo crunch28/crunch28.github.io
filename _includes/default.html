@@ -51,10 +51,10 @@ function menu_openClose() {
 	}
 }
 
-var burger = $('.menu-trigger');
+let burger = $('.menu-trigger');
 
 burger.each(function(index){
-  var $this = $(this);
+  let $this = $(this);
   
   $this.on('click', function(e){
     e.preventDefault();
@@ -62,8 +62,22 @@ burger.each(function(index){
   })
 });
 	
-	console.log(document.documentElement.scrollTop);
-	$("#sTop").text('↑ ' + document.documentElement.scrollTop);
+	
+	window.addEventListener('scroll', () => {
+		let scrollLocation = document.documentElement.scrollTop; // 현재 스크롤바 위치
+		let windowHeight = window.innerHeight; // 스크린 창
+		let fullHeight = document.body.scrollHeight; //  margin 값은 포함 x
+console.log(scrollLocation);
+		console.log(windowHeight);
+		console.log(fullHeight);
+		
+		if(scrollLocation + windowHeight >= fullHeight){
+			console.log('끝')
+		}
+	})
+	
+	
+	// $("#sTop").text('↑ ' + document.documentElement.scrollTop);
 	
 </script>
 </html>
