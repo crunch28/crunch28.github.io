@@ -12,9 +12,14 @@
 		<div class="sidebar">
 			<i onclick="w3_close()" class="fa fa-remove w3-hide-large w3-button w3-display-topright"></i>
 			{% include sidebar.html %}
+			
+			<a class="menu-trigger" href="#">
+				<span></span>
+				<span></span>
+				<span></span>
+			</a>
 		</div>
 		<div class="content">
-			<i class="fa fa-bars"></i>
 			{{ content }}
 		</div>
 	</div>
@@ -30,5 +35,16 @@ function menu_close() {
   document.querySelector(".sidebar").style.display = "none";
   // document.getElementById("myOverlay").style.display = "none";
 }
+	
+var burger = document.querySelector('.menu-trigger');
+
+burger.each(function(index){
+  var $this = $(this);
+  
+  $this.on('click', function(e){
+    e.preventDefault();
+    $(this).toggleClass('active-' + (index+1));
+  })
+});
 </script>
 </html>
