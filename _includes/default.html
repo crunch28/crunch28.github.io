@@ -30,6 +30,7 @@ function menu_openClose() {
 	
 	if($('.sidebar').css("display") == "block"){
 		$('.sidebar').hide();
+		$('.container').css("background", ""); 
 	}else{
 		$('.sidebar').show();
 		$('.container').css("background", "#0005"); 
