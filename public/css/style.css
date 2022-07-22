@@ -351,6 +351,8 @@ a.back-to-top {
 		font-size: 0.8em;
 		position: fixed;
 		display: none;
+		width: -webkit-fill-available;
+    	height: -webkit-fill-available;
 	}
 
 	.sidebar-nav {
@@ -386,6 +388,7 @@ a.back-to-top {
 	  height: 23px;
 	  right: -5px;
 	  top: 20px;
+	  z-index: 1;
 	}
 
 	.menu-trigger span {
