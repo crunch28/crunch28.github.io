@@ -17,11 +17,11 @@
 			{{ content }}
 		</div>
 	</div>
-			<a class="menu-trigger" href="#">
-				<span></span>
-				<span></span>
-				<span></span>
-			</a>
+			<button class="menu-trigger" id="btn">
+			  <span></span>
+			  <span></span>
+			  <span></span>
+			</button>
   </body>
 <script>
 // Open and close sidebar
@@ -37,13 +37,10 @@ function menu_close() {
 	
 var burger = document.querySelector('.menu-trigger');
 
-burger.each(function(index){
-  var $this = $(this);
-  
-  $this.on('click', function(e){
-    e.preventDefault();
-    $(this).toggleClass('active-' + (index+1));
-  })
+var e = document.querySelector('.menu-trigger');
+e.addEventListener('click', function() {
+  if (this.className == 'on') this.classList.remove('on');
+  else this.classList.add('on');
 });
 </script>
 </html>
