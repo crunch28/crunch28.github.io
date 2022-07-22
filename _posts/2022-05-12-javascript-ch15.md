@@ -1,10 +1,10 @@
 ---
 layout: post
-title: Chapter 15 let, const 키워드와 블록 레벨 스코프
+title: Chapter 15장 let, const 키워드와 블록 레벨 스코프
 date: 2022-05-12 20:41:00 +0900
 category: Javascript-Deep-Dive
 ---
-# 15 let, const 키워드와 블록 레벨 스코프
+# 15장 let, const 키워드와 블록 레벨 스코프
 
 ### 15.1 var 키워드로 선언한 변수의 문제점
 
