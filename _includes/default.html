@@ -12,18 +12,21 @@
 		<div class="sidebar">
 			<i onclick="w3_close()" class="fa fa-remove w3-hide-large w3-button w3-display-topright"></i>
 			{% include sidebar.html %}
-		</div>
-		<div class="content">
-			{{ content }}
-		</div>
-	</div>
 			<a class="menu-trigger" href="#" onclick="menu_openClose()">
 				<span></span>
 				<span></span>
 				<span></span>
 			</a>
+		</div>
+		<div class="content">
+			{{ content }}
+		</div>
+	</div>
 	   <!-- Top 버튼 -->
-	  <a class='back-to-top' href='#' style="display: none;"><i class="icon-arrow-up"></i> <span id="sTop"></span></a>
+	  <a class='back-to-top' href='#' style="display: none;">
+		  <i class="icon-arrow-up"></i>
+		  <span id="sTop"></span>
+	  </a>
 	  <!-- //Top 버튼 -->
   </body>
 <script>
