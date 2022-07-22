@@ -17,7 +17,7 @@
 			{{ content }}
 		</div>
 	</div>
-			<a class="menu-trigger" href="#" onclick="w3_open()">
+			<a class="menu-trigger" href="#" onclick="menu_openClose()">
 				<span></span>
 				<span></span>
 				<span></span>
@@ -25,8 +25,13 @@
   </body>
 <script>
 // Open and close sidebar
-function menu_open() {
-  document.querySelector(".sidebar").style.display = "block";
+function menu_openClose() {
+  var flagSidebar = document.querySelector(".sidebar").style.display
+	if(flagSidebar == "block"){
+		flagSidebar = "none";
+	}else{
+		flagSidebar = "block";
+	}
   // document.getElementById("myOverlay").style.display = "block";
 }
  
