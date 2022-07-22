@@ -32,13 +32,9 @@ function menu_openClose() {
 		$('.sidebar').hide();
 	}else{
 		$('.sidebar').show();
+		$('.container').css("background", "#0005"); 
 	}
   // document.getElementById("myOverlay").style.display = "block";
-}
-
-function menu_close() {
-  document.querySelector(".sidebar").style.display = "none";
-  // document.getElementById("myOverlay").style.display = "none";
 }
 	
 var burger = $('.menu-trigger');
