@@ -12,6 +12,8 @@ category: Eclipse
 
 ![img-eclips-git-1.png](/public/img/posts/eclipse-git/img-eclips-git-1.png)
 
+<br>
+
 2. Source Git Repository 창에서 해당 값 입력
 
 URL : [https://github.com/crunch28/java.study.git](https://github.com/crunch28/java.study.git)
@@ -24,13 +26,19 @@ password : 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
 
 Next 누름
 
+<br>
+
 3. Next 누름
 
 ![img-eclips-git-3.png](/public/img/posts/eclipse-git/img-eclips-git-3.png)
 
+<br>
+
 4. Finish 누름
 
 ![img-eclips-git-4.png](/public/img/posts/eclipse-git/img-eclips-git-4.png)
+
+<br>
 
 5. 저장소 생성 확인
 
@@ -44,9 +52,13 @@ Next 누름
 
 ![img-eclips-git-6.png](/public/img/posts/eclipse-git/img-eclips-git-6.png)
 
+<br>
+
 2. java.study는 체크 풀고 Finish 클릭
 
 ![img-eclips-git-7.png](/public/img/posts/eclipse-git/img-eclips-git-7.png)
+
+<br>
 
 3. 프로젝트가 생성되었는지 확인
 
