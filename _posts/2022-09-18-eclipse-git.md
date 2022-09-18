@@ -8,13 +8,11 @@ category: Eclipse
 
 # 1. 이클립스 깃 연동
 
-1. Clone a Git repository를 클릭
+#### 1 Clone a Git repository를 클릭
 
 ![img-eclips-git-1.png](/public/img/posts/eclipse-git/img-eclips-git-1.png)
 
-2. Source Git Repository 창에서 해당 값 입력
-
-<br>
+#### 2 Source Git Repository 창에서 해당 값 입력
 
 URL : [https://github.com/crunch28/java.study.git](https://github.com/crunch28/java.study.git)
 
@@ -26,23 +24,15 @@ password : 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
 
 Next 누름
 
-<br>
-
-3. Next 누름
-
-<br>
+#### 3 Next 누름
 
 ![img-eclips-git-3.png](/public/img/posts/eclipse-git/img-eclips-git-3.png)
 
-<br>
-
-4. Finish 누름
+#### 4 Finish 누름
 
 ![img-eclips-git-4.png](/public/img/posts/eclipse-git/img-eclips-git-4.png)
 
-<br>
-
-5. 저장소 생성 확인
+#### 5 저장소 생성 확인
 
 저장소 이름은 java.study
 
@@ -50,19 +40,15 @@ Next 누름
 
 # 2. 프로젝트 생성
 
-1. 저장소 오른쪽 마우스 클릭 후 Import Projects… 클릭
+#### 1 저장소 오른쪽 마우스 클릭 후 Import Projects… 클릭
 
 ![img-eclips-git-6.png](/public/img/posts/eclipse-git/img-eclips-git-6.png)
 
-<br>
-
-2. java.study는 체크 풀고 Finish 클릭
+#### 2 java.study는 체크 풀고 Finish 클릭
 
 ![img-eclips-git-7.png](/public/img/posts/eclipse-git/img-eclips-git-7.png)
 
-<br>
-
-3. 프로젝트가 생성되었는지 확인
+#### 3 프로젝트가 생성되었는지 확인
 
 실행해서 java study test 나오는지 확인
 
