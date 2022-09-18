@@ -12,9 +12,9 @@ category: Eclipse
 
 ![img-eclips-git-1.png](/public/img/posts/eclipse-git/img-eclips-git-1.png)
 
-<br>
-
 2. Source Git Repository 창에서 해당 값 입력
+
+<br>
 
 URL : [https://github.com/crunch28/java.study.git](https://github.com/crunch28/java.study.git)
 
@@ -29,6 +29,8 @@ Next 누름
 <br>
 
 3. Next 누름
+
+<br>
 
 ![img-eclips-git-3.png](/public/img/posts/eclipse-git/img-eclips-git-3.png)
 
